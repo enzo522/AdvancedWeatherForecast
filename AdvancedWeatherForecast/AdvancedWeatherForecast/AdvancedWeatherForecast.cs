@@ -46,7 +46,7 @@ namespace AdvancedWeatherForecast
                     return "The skies will be clear for the next couple of hours.";
 
                 case Weather.Foggy:
-                    return "Its going to be foggy for a while.";
+                    return "It's going to be foggy for a while.";
 
                 case Weather.Smog:
                     return "Clear skies accompanied by little fog are expected.";
@@ -55,13 +55,13 @@ namespace AdvancedWeatherForecast
                     return "Rain is expected to feature the following hours.";
 
                 case Weather.Neutral:
-                    return "Strange shit happening on the skies soon. Beware.";
+                    return "Strange things happening on the skies soon. Beware.";
 
                 case Weather.ThunderStorm:
                     return "Heavy rain accompanied by thunder is expected.";
 
                 case Weather.Snowlight:
-                    return "Some snow is expected.";
+                    return "Light snow is expected.";
 
                 case Weather.Snowing:
                     return "Copious ammounts of snow for the next hours.";
@@ -70,16 +70,16 @@ namespace AdvancedWeatherForecast
                     return "Christmas itself is expected. Ho ho ho!";
 
                 case Weather.ExtraSunny:
-                    return "Skies will be completely clear for a few hours.";
+                    return "Skies will be extra sunny for a few hours.";
 
                 case Weather.Overcast:
-                    return "Its going to be very cloudy for some time.";
+                    return "It's going to be overcast for some time.";
 
                 case Weather.Clouds:
                     return "Clouds will cover the sky for some hours.";
 
                 case Weather.Halloween:
-                    return "Halloween is expected.";
+                    return "Halloween is coming.";
 
                 case Weather.Unknown:
                     return "Unknown.";

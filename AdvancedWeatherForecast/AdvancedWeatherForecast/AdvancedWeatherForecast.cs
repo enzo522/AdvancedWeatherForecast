@@ -37,55 +37,55 @@ namespace AdvancedWeatherForecast
             switch (w)
             {
                 case Weather.Blizzard:
-                    return "A big blizzard is expected.";
+                    return "A big ~y~Blizzard~w~ is expected.";
 
                 case Weather.Clearing:
-                    return "Skies will clear in the next hours.";
+                    return "Skies are ~y~Clearing~w~ in the next hours.";
 
                 case Weather.Clear:
-                    return "The skies will be clear for the next couple of hours.";
+                    return "The skies will be ~y~Clear~w~ for the next couple of hours.";
 
                 case Weather.Foggy:
-                    return "It's going to be foggy for a while.";
+                    return "It's going to be ~y~Foggy~w~ for a while.";
 
                 case Weather.Smog:
-                    return "Clear skies accompanied by little fog are expected.";
+                    return "Clear skies accompanied by little ~y~Smog~w~ are expected.";
 
                 case Weather.Raining:
-                    return "Rain is expected to feature the following hours.";
+                    return "~y~Rain~w~ is expected to feature the following hours.";
 
                 case Weather.Neutral:
-                    return "Strange things happening on the skies soon. Beware.";
+                    return "Strange ~y~Neutral~w~ things happening on the skies soon. Beware.";
 
                 case Weather.ThunderStorm:
-                    return "Heavy rain accompanied by thunder is expected.";
+                    return "Heavy rain accompanied by ~y~ThunderStorm~w~ is expected.";
 
                 case Weather.Snowlight:
-                    return "Light snow is expected.";
+                    return "~y~Snowlight~w~ is expected.";
 
                 case Weather.Snowing:
-                    return "Copious ammounts of snow for the next hours.";
+                    return "~y~Snowing~w~ for the next hours.";
 
                 case Weather.Christmas:
-                    return "Christmas itself is expected. Ho ho ho!";
+                    return "~y~Christmas~w~ itself is expected. Ho ho ho!";
 
                 case Weather.ExtraSunny:
-                    return "Skies will be extra sunny for a few hours.";
+                    return "Skies will be ~y~ExtraSunny~w~ for a few hours.";
 
                 case Weather.Overcast:
-                    return "It's going to be overcast for some time.";
+                    return "It's going to be ~y~Overcast~w~ for some time.";
 
                 case Weather.Clouds:
-                    return "Clouds will cover the sky for some hours.";
+                    return "~y~Clouds~w~ will cover the sky for some hours.";
 
                 case Weather.Halloween:
-                    return "Halloween is coming.";
+                    return "~y~Halloween~w~ is coming.";
 
                 case Weather.Unknown:
-                    return "Unknown.";
+                    return "~y~Unknown.";
 
                 default:
-                    return "No idea.";
+                    return "~y~No idea.";
             }
         }
     }
